@@ -20,3 +20,9 @@ your device not blocked by google for login
 ```sh
 node src/email
 ```
+
+## mysql demo
+
+```sh
+node src/mysql
+```
