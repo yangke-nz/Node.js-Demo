@@ -11,3 +11,12 @@ npm install
 ```sh
 node src/csv
 ```
+
+## nodemailer demo
+
+configure your email allow 'Less secure app access'
+your device not blocked by google for login
+
+```sh
+node src/email
+```
