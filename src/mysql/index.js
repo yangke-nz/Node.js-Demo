@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-connection.query('SELECT name FROM products limit 5', function (error, results, fields) {
+connection.query('SELECT name FROM products limit 5', function (error, results) {
   if (error) {
     throw error;
   }
